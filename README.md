@@ -35,4 +35,4 @@ Python 2 was discontinued with version 2.7.18 in 2020.
 
 **Python consistently ranks as one of the most popular programming languages**
 
-From Wikipedia: https://en.wikipedia.org/wiki/Python_(programming_language)
+From Wikipedia:https://en.wikipedia.org/wiki/Python_(programming_language)
