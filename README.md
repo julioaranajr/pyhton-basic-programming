@@ -17,7 +17,7 @@ dominant implementation being common.
 - Programming language theory is a subfield of computer science that deals with the design, implementation, 
 analysis, characterization, and classification of programming languages.
 
-From: [Wikipedia](https://en.wikipedia.org/wiki/Programming_language)
+  From: [Wikipedia](https://en.wikipedia.org/wiki/Programming_language)
 
 ## Python (programming language)
 
@@ -33,6 +33,6 @@ list comprehensions, cycle-detecting garbage collection, reference counting, and
 released in 2008, was a major revision that is not completely backward-compatible with earlier versions. 
 Python 2 was discontinued with version 2.7.18 in 2020.
 
-Python consistently ranks as one of the most popular programming languages
+  Python consistently ranks as one of the most popular programming languages
 
-From: [Wikipedia](https://en.wikipedia.org/wiki/Python_(programming_language))
+  From: [Wikipedia](https://en.wikipedia.org/wiki/Python_(programming_language))
