@@ -9,7 +9,7 @@ def main():
 
     fahrenheit = 1.8 * celsius + 32
 
-    print(f"{celsius} ºC son {fahrenheit} ºF")
+    print(f"{celsius} ºC are {fahrenheit} ºF")
 
 
 if __name__ == "__main__":
