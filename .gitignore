@@ -128,5 +128,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Ignora archivos del sistema Mac 
-.DS_store
+# Mac shortened for Desktop Services Store files
+**/.DS_Store
