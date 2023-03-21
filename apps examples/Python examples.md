@@ -14,8 +14,7 @@ Python also uses the ** operator for exponentiation.
 The @ infix operator. It is intended to be used by libraries such as NumPy for matrix multiplication.
 The syntax :=, called the "walrus operator", was introduced in Python 3.8. 
 It assigns values to variables as part of a larger expression.
-``` 
-```py
+
 In Python, == compares by value, versus Java, which compares numerics by value and objects by reference. 
 Pythons is operator may be used to compare object identities (comparison by reference), 
 and comparisons may be chained—for example, a <= b <= c.
