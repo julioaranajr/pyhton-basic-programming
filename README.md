@@ -1,4 +1,4 @@
-# 04 Basic of Programming
+# Python Basic of Programming
 Talent Academy Learning Python - Hands on Labs: Config Python Environment and Examples
 
 ## Programming language 
