@@ -4,22 +4,40 @@
 
 Some Python expressions are similar to those in languages such as C and Java, while some are not:
 ```py
-Addition, subtraction, and multiplication are the same, but the behavior of division differs. There are two types of divisions in Python: floor division (or integer division) // and floating-point/division. Python also uses the ** operator for exponentiation.
+Addition, subtraction, and multiplication are the same, but the behavior of division differs. 
+There are two types of divisions in Python: 
+floor division (or integer division) // and floating-point/division. 
+Python also uses the ** operator for exponentiation.
 
 The @ infix operator. It is intended to be used by libraries such as NumPy for matrix multiplication.
-The syntax :=, called the "walrus operator", was introduced in Python 3.8. It assigns values to variables as part of a larger expression.
+The syntax :=, called the "walrus operator", was introduced in Python 3.8. 
+It assigns values to variables as part of a larger expression.
 
-In Python, == compares by value, versus Java, which compares numerics by value and objects by reference. Pythons is operator may be used to compare object identities (comparison by reference), and comparisons may be chained—for example, a <= b <= c.
+In Python, == compares by value, versus Java, which compares numerics by value and objects by reference. 
+Pythons is operator may be used to compare object identities (comparison by reference), 
+and comparisons may be chained—for example, a <= b <= c.
 
 Python uses and, or, and not as boolean operators rather than the symbolic &&, ||, ! in Java and C.
 
-Python has a type of expression called a list comprehension, as well as a more general expression called a generator expression.
+Python has a type of expression called a list comprehension, as well 
+as a more general expression called a generator expression.
 
-Anonymous functions are implemented using lambda expressions; however, there may be only one expression in each body.
+Anonymous functions are implemented using lambda expressions; however, 
+there may be only one expression in each body.
 
-Conditional expressions are written as x if c else y (different in order of operands from the c ? x : y operator common to many other languages).
+Conditional expressions are written as x if c else y 
+(different in order of operands from the c ? x : y operator common to many other languages).
 
-Python makes a distinction between lists and tuples. Lists are written as [1, 2, 3], are mutable, and cannot be used as the keys of dictionaries (dictionary keys must be immutable in Python). Tuples, written as (1, 2, 3), are immutable and thus can be used as keys of dictionaries, provided all of the tuple elements are immutable. The + operator can be used to concatenate two tuples, which does not directly modify their contents, but produces a new tuple containing the elements of both. Thus, given the variable t initially equal to (1, 2, 3), executing t = t + (4, 5) first evaluates t + (4, 5), which yields (1, 2, 3, 4, 5), which is then assigned back to t—thereby effectively "modifying the contents" of t while conforming to the immutable nature of tuple objects. Parentheses are optional for tuples in unambiguous contexts.
+Python makes a distinction between lists and tuples. Lists are written as [1, 2, 3], are mutable, 
+and cannot be used as the keys of dictionaries (dictionary keys must be immutable in Python). 
+Tuples, written as (1, 2, 3), are immutable and thus can be used as keys of dictionaries, 
+provided all of the tuple elements are immutable. The + operator can be used to concatenate two tuples, 
+which does not directly modify their contents, but produces a new tuple containing the elements of both. 
+Thus, given the variable t initially equal to (1, 2, 3), 
+executing t = t + (4, 5) first evaluates t + (4, 5), which yields (1, 2, 3, 4, 5), 
+which is then assigned back to t—thereby effectively "modifying the contents" of t 
+while conforming to the immutable nature of tuple objects. Parentheses are optional 
+for tuples in unambiguous contexts.
 
 Python features sequence unpacking where multiple expressions, each evaluating to anything that can be assigned (to a variable, writable property, etc.) are associated in an identical manner to that forming tuple literals—and, as a whole, are put on the left-hand side of the equal sign in an assignment statement. The statement expects an iterable object on the right-hand side of the equal sign that produces the same number of values as the provided writable expressions; when iterated through them, it assigns each of the produced values to the corresponding expression on the left.
 
@@ -29,7 +47,7 @@ Strings in Python can be concatenated by "adding" them (with the same operator a
 ```
 
 
-### Variables
+## Variables
 
 ```py
 apples = 20             # type integer
@@ -40,7 +58,7 @@ print(apples)
 print(price)
 ```
 
-### Receiving Input
+## Receiving Input
 
 ```py
 apples = input("How many apples do you have ?")
@@ -48,7 +66,7 @@ apples = input("How many apples do you have ?")
 print("You have " + apples + " apples!")
 ```
 
-### Type Conversion
+## Type Conversion
 
 ```py
 date = input("Enter the year you were born? ")
@@ -58,7 +76,7 @@ age = 2021 - int(date)  # convert the variable to an integer before doing the ar
 print(age)
 ```
 
-### Strings
+## Strings
 
 ```py
 planet_name = 'jupiter'
@@ -76,7 +94,7 @@ print(planet_name)
 print("ter" in planet_name)
 ```
 
-### Arithmetic Operators
+## Arithmetic Operators
 
 ```py
 # classics: +, -, *, /
@@ -97,7 +115,7 @@ x = 10
 x += 7      # It's the same as x = x + 7
 ```
 
-### Operator Precedence
+## Operator Precedence
 
 ```py
 # Precedence is the same as in Maths
@@ -109,7 +127,7 @@ x = (10 + 3) * 2
 print(x)
 ```
 
-### Comparison Operators
+## Comparison Operators
 
 ```py
 x = 5 > 8  # creates a boolean value
@@ -122,7 +140,7 @@ x = 5 != 8  # 5 is not equal to 8
 print(x)
 ```
 
-### Logical Operators
+## Logical Operators
 
 ```py
 # It can also be combined using 'and'/'or'
@@ -138,7 +156,7 @@ print(Venus > Earth)   # returns False
 print(not Venus > Earth) # returns True
 ```
 
-### If Statements
+## If Statements
 
 ```py
 temperature = 25
@@ -156,7 +174,7 @@ else:
 print("Done")
 ```
 
-### Exercise
+## Exercise
 
 - Knowing that 5 apples equals to 1 kg:
 - Input the amount of apples
