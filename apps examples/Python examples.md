@@ -19,7 +19,6 @@ In Python, == compares by value, versus Java, which compares numerics by value a
 Pythons is operator may be used to compare object identities (comparison by reference), 
 and comparisons may be chained—for example, a <= b <= c.
 
-```py
 Python uses and, or, and not as boolean operators rather than the symbolic &&, ||, ! in Java and C.
 
 Python has a type of expression called a list comprehension, as well 
